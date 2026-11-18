@@ -1,8 +1,26 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
+import fs from 'node:fs'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    {
+      name: 'copy-index-to-404',
+      closeBundle() {
+        const distDir = path.resolve(__dirname, 'dist')
+        const indexHtml = path.join(distDir, 'index.html')
+        const notFoundHtml = path.join(distDir, '404.html')
+        if (fs.existsSync(indexHtml)) {
+          fs.copyFileSync(indexHtml, notFoundHtml)
+        }
+      },
+    },
+  ],
   base: '/',
 })
