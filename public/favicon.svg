@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="pkm-favicon-title">
+  <title id="pkm-favicon-title">Puskesmas Dasuk</title>
+  <defs>
+    <linearGradient id="pkm-green" x1="96" y1="52" x2="424" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#15803D"/>
+    </linearGradient>
+  </defs>
+  <path d="M256 24c54 0 106 18 146 51 42 35 66 87 66 143 0 64-31 124-82 162-36 27-81 42-130 42s-94-15-130-42C75 342 44 282 44 218c0-56 24-108 66-143 40-33 92-51 146-51Z" fill="url(#pkm-green)"/>
+  <circle cx="256" cy="228" r="126" fill="#FFFFFF"/>
+  <path d="M232 150h48v54h54v48h-54v54h-48v-54h-54v-48h54v-54Z" fill="#15803D"/>
+  <path d="M132 400c35 30 78 46 124 46s89-16 124-46c-22 38-68 66-124 66s-102-28-124-66Z" fill="#FACC15"/>
+</svg>
