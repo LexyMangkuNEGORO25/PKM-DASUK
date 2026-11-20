@@ -16,6 +16,7 @@ export default function BeritaDetail() {
     title: article ? article.title : 'Berita tidak ditemukan',
     description: article ? article.excerpt : 'Halaman berita tidak ditemukan.',
     image: article ? article.image : undefined,
+    noindex: !article,
   })
 
   if (!article) {

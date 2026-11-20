@@ -6,6 +6,7 @@ export default function NotFound() {
   usePageMeta({
     title: 'Halaman tidak ditemukan',
     description: 'Halaman yang Anda cari tidak tersedia.',
+    noindex: true,
   })
 
   return (

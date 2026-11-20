@@ -14,6 +14,7 @@
 export const site = {
   name: 'Puskesmas Dasuk',
   shortName: 'PKM Dasuk',
+  url: 'https://puskesmasdasuk.com',
   logo: '/logo-puskesmas-dasuk.png',
   tagline: 'Pelayanan kesehatan untuk masyarakat Kecamatan Dasuk',
   location: 'Kecamatan Dasuk, Kabupaten Sumenep, Jawa Timur',

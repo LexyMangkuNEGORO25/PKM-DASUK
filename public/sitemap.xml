@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Halaman Utama / Beranda -->
+  <url>
+    <loc>https://puskesmasdasuk.com/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Halaman Profil -->
+  <url>
+    <loc>https://puskesmasdasuk.com/profil</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Halaman Pelayanan -->
+  <url>
+    <loc>https://puskesmasdasuk.com/pelayanan</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Halaman Indeks Berita -->
+  <url>
+    <loc>https://puskesmasdasuk.com/berita</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Halaman Detail Berita & Edukasi Kesehatan -->
+  <url>
+    <loc>https://puskesmasdasuk.com/berita/menjaga-kesehatan-keluarga-musim-hujan</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://puskesmasdasuk.com/berita/pentingnya-pemeriksaan-kesehatan-rutin</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://puskesmasdasuk.com/berita/peran-posyandu-kesehatan-ibu-anak</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Halaman Kontak -->
+  <url>
+    <loc>https://puskesmasdasuk.com/kontak</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
